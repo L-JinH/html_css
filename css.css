@@ -1,0 +1,73 @@
+/* 구글 웹 폰트 사용 */
+/* 
+1. 구글 웹 폰트 (https://fonts.google.com/)
+2. 폰트 검색
+3. 스타일 복사
+  select this style 클릭 => link or @import
+*/
+
+/* 폰트 어썸 */
+/*  <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous">
+    </script> 
+*/
+
+/* 텍스트 자간 */
+/* letter-spacing: n px; */
+
+/* 블록 & 인라인 요소 */
+/* 
+인라인 요소: strong, em, a, span
+블록 요소: 그 외
+*/
+
+/* 배경요소 */
+/* 
+background-image: url(이미지 경로) 
+=> 배경 이미지 삽입.
+
+background-repeat: repeat, repeat-x, repeat-y, no-repeat 
+=> 배경 이미지 반복
+
+background-position : 가로축, 세로축
+=> 이미지 위치 지정.
+
+background-size : contain, cover
+=> 이미지 크기 지정.
+
+background-attachment : fixed
+=> 이미지가 움직이지 않게 고정, 기준점: 브라우저
+*/
+
+/* 콘텐츠 특정 영역 채우기: object-fit */
+/* 
+fill : 비율을 무시하고 가득 채움.
+cover : 비율 유지하면서 여백 없이 가득 채움.
+contain : 비율 유지하면서 콘텐츠가 잘리지 않게 가득 채움.
+*/
+
+/* box, text - shadow */
+/* 
+box-shadow : 가로축 / 세로축 / 퍼짐 정도 / 색상 
+=> 블록 요소에 그림자 만듬.
+
+text-shadow : 가로축 / 세로축 / 퍼짐 정도 / 색상
+=> 텍스트에 그림자 만듬.
+*/
+
+/* linear, radial - gradient */
+/* 
+linear-gradient(방향, 색상1, 색상2) => 직선 모양 그레이디언트 적용
+radial-gradient(색상1, 색상2) => 타원 모양 그레이디언트 적용
+*/
+
+/* filter - 특수 효과 사용 */
+/* 
+blur : 흐림 효과
+brightness : 밝기 조절
+contrast : 명도 대비 조절
+grayscale : 흑백 지정
+hue-rotate : 색상 단계 조절
+invert : 색상 반전 단계 조절
+saturate : 채도 조절
+sepia : 갈색 톤 단계 조절
+*/
