@@ -1,0 +1,73 @@
+/* transform (2D) */
+/* scale: 크기 확대, 축소. 기준 1. */
+/* 
+.div-box {
+  transform: scale(0.5);
+} 
+*/
+
+/* skew: x, y축으로 비틀어서 변형. */
+/* 
+.div-box {
+  transform: skewY(20deg);
+} 
+*/
+
+/* translate: x, y축으로 이동. */
+/* 
+.div-box {
+  transform: translate(50px);
+}
+*/
+
+/* rotate: 회전. */
+/* 
+.div-box {
+  transform: rotate(45deg);
+} 
+*/
+
+/* transform (3D) */
+/* perspective: 부모 요소에 추가해 원근법 지정. 값이 작을 수록 왜곡이 심해진다. */
+/* 
+section {
+  perspective: 500px;
+} 
+*/
+
+/* rotateX, Y */
+/*
+.div-box {
+  transform: rotateX(45deg);
+}
+.div-box {
+  transform: rotateY(45deg);
+}
+*/
+
+/* translateZ */
+/* 
+.div-box {
+  transform: translateZ(50px);
+} 
+*/
+
+/* transform-style */
+/* preserve-3d 
+: 3D 적용된 요소에 모션처리를 하면 3D가 풀리지만 부모요소에 preserve-3d를 추가하면 3D 효과 유지. */
+
+section {
+  perspective: 500px;
+  transform-style: preserve-3d;
+}
+/* 
+.div-box {
+  transform: rotateY(45deg);
+} 
+*/
+
+/* transform-origin */
+.div-box {
+  transform: rotateY(120deg);
+  transform-origin: center left;
+}
