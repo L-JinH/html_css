@@ -41,6 +41,7 @@ background-attachment : fixed
 /* 콘텐츠 특정 영역 채우기: object-fit */
 /* 
 fill : 비율을 무시하고 가득 채움.
+- transparent: 투명
 cover : 비율 유지하면서 여백 없이 가득 채움.
 contain : 비율 유지하면서 콘텐츠가 잘리지 않게 가득 채움.
 */
@@ -70,4 +71,10 @@ hue-rotate : 색상 단계 조절
 invert : 색상 반전 단계 조절
 saturate : 채도 조절
 sepia : 갈색 톤 단계 조절
+*/
+
+/* 
+stroke: 외곽선
+stroke-dasharray: 선간격 띄우기
+stroke-dashoffset: 보이는 선 시작 위치.
 */
